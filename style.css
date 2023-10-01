@@ -1,10 +1,21 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+
+    --white:#F7F7F7;
+    --dark:#252525;
+
+    --default-font: 'Space Mono', monospace;
+}
+
+
 body{
     background-color: #252525;
-
-    color: #F7F7F7;
-
+    color: var(--white);
+    font-family: var(--default-font);
+    
     display: flex;
-
     justify-content: center;
     align-items: center;
     flex-direction: column;
